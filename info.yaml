@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     445719908334405633       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Smaforo"      # Project title
+  author:       "Javier Alejandro Arias Valdez"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Mi semaforo"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     1       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -26,15 +26,15 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
-
+  uo[0]: "S0"
+  uo[1]: "S1"
+  uo[2]: "S2"
+  uo[3]: "S3"
+  uo[4]: "S4"
+  uo[5]: "S5"
+  uo[6]: "S6"
+  uo[7]: "S7"
+  uo[8]: "S8"
   # Bidirectional pins
   uio[0]: ""
   uio[1]: ""
